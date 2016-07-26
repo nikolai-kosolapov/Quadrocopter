@@ -14,5 +14,12 @@ namespace Quadrocopter
                 return min;
             return value;
         }
+
+        public static float Looped(this float value, float min, float max)
+        {
+            if (value >= min && value <= max) return value;
+            if (value < min) return max - min + value;
+            return min + value - max;
+        }
     }
 }
