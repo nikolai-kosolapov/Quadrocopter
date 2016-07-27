@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 7b1c20a32e216334dabc13fdb6ec7892
-timeCreated: 1469403534
+timeCreated: 1469595596
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Quadrocopter: {instanceID: 0}
+  - Forward: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
